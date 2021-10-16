@@ -9,7 +9,7 @@ function App() {
   const [component, setComponent] = useState(false)
 
   const toggleView = () => {
-    setComponent(true)
+    component === true ? setComponent(false) : setComponent(true)
   }
 
 
