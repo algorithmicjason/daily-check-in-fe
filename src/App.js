@@ -17,7 +17,7 @@ function App() {
   return (
     <div>
       <h1>HELLO WORLD</h1>
-      <a onClick={toggleView}>ello champ</a>
+      <a onClick={toggleView}>take daily questionaire</a>
       {component === true ? <Oct15 /> : null}
     </div>
   );
